@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: backend
-          image: kubefoods-backend:v1
+          image: ilopeoso/kubefoods-backend:v1
           ports:
             - containerPort: 80
